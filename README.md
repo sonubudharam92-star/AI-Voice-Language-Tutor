@@ -2,7 +2,7 @@
 
 An AI-powered voice language tutor that helps users practice speaking and improve their grammar through real-time voice interaction.
 
-✨ Features
+### ✨ Features
 
 - 🎤 Speech-to-text using the browser's Web Speech API
 - 🤖 AI-powered grammar and language feedback
@@ -11,7 +11,7 @@ An AI-powered voice language tutor that helps users practice speaking and improv
 - 💻 Simple and responsive user interface
 - 🔐 API key protected using environment variables
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - HTML
 - CSS
@@ -21,7 +21,7 @@ An AI-powered voice language tutor that helps users practice speaking and improv
 - OpenAI API
 - Web Speech API
 
-🚀 How It Works
+### 🚀 How It Works
 
 1. Select a language.
 2. Click **Start Speaking**.
@@ -58,7 +58,7 @@ node backend/server.js
 
 Then open the application in your browser.
 
-🎯 Future Improvements
+### 🎯 Future Improvements
 
 - More language options
 - Better pronunciation analysis
