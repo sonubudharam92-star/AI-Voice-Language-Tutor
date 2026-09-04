@@ -1,4 +1,4 @@
-🎙️ AI Voice Language Tutor
+## 🎙️ AI Voice Language Tutor
 
 An AI-powered voice language tutor that helps users practice speaking and improve their grammar through real-time voice interaction.
 
@@ -32,26 +32,26 @@ An AI-powered voice language tutor that helps users practice speaking and improv
 7. The feedback is displayed on the webpage.
 8. The tutor can speak the feedback aloud.
 
-##⚙️ Setup
+## ⚙️ Setup
 
- ###1. Clone the repository
+ ### 1. Clone the repository
 ```bash
 git clone https://github.com/sonubudharam92-star/AI-Voice-Language-Tutor
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-###3. Create the .env file
+### 3. Create the .env file
 
 Create a .env file in the project root:
 ```env
 OPENAI_API_KEY=your_api_key_here
 ```
 
-###4. Start the server
+### 4. Start the server
 ```bash
 node backend/server.js
 ```
