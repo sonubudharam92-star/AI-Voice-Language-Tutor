@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AI Voice Language Tutor</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🎙️ AI Voice Language Tutor</h1>
+
+      <p class="subtitle">Speak in a language and let AI help you improve.</p>
+
+      <div class="language-section">
+        <label for="language">Choose Language:</label>
+
+        <select id="language">
+          <option value="german">German</option>
+          <option value="english">English</option>
+          <option value="french">French</option>
+          <option value="spanish">Spanish</option>
+        </select>
+      </div>
+
+      <button id="micButton">🎤 Start Speaking</button>
+
+      <div class="result-box">
+        <h2>You said:</h2>
+        <p id="transcript">Your spoken sentence will appear here...</p>
+      </div>
+
+      <div class="feedback-box">
+        <h2>🤖 AI Feedback</h2>
+        <p id="feedback">AI feedback will appear here...</p>
+      </div>
+
+      <button id="speakButton">🔊 Speak Correction</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
